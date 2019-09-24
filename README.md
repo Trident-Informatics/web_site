@@ -1,2 +1,2 @@
 # web_site
-Official website from Trident-Informatics
+Official website of Trident-Informatics
