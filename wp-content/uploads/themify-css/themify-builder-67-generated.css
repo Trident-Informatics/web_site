@@ -1,0 +1,20 @@
+.themify_builder_67_row.module_row_0.module_row{background-image: url("https://themify.me/demo/themes/ultra-agency/files/2016/08/photo-1416339306562-f3d12fefd36f.jpg"); background-repeat: no-repeat;background-size: cover; background-position: center center; text-align: center; padding-top:13%; padding-bottom:13%; }
+.themify_builder_67_row.module_row_0.module_row>.builder_row_cover::before{background-image:-webkit-linear-gradient(180deg,rgba(155, 172, 173, 0.658824) 0%,rgb(255, 255, 255) 100%);
+background-image:-o-linear-gradient(180deg,rgba(155, 172, 173, 0.658824) 0%,rgb(255, 255, 255) 100%);
+background-image:linear-gradient(180deg,rgba(155, 172, 173, 0.658824) 0%,rgb(255, 255, 255) 100%);
+}
+.themify_builder_67_row.module_row_0.module_row,.themify_builder_67_row.module_row_0 h1,.themify_builder_67_row.module_row_0 h2,.themify_builder_67_row.module_row_0 h3:not(.module-title),.themify_builder_67_row.module_row_0 h4,.themify_builder_67_row.module_row_0 h5,.themify_builder_67_row.module_row_0 h6{color:#000000; }
+.themify_builder_67_row.module_row_0 a{color:#000000; }
+@media screen and (max-width: 480px) {.themify_builder_67_row.module_row_0.module_row{padding-top:25%; padding-bottom:18%; }
+}
+.themify_builder_67_row.module_row_1.module_row{padding-top:8%; padding-bottom:8%; }
+.themify_builder_67_row.module_row_2.module_row{background-image: url("https://themify.me/demo/themes/ultra-agency/files/2016/06/desk-601540.jpg"); background-repeat: no-repeat;background-size: cover; text-align: center; padding-top:12%; padding-bottom:9%; }
+.themify_builder_67_row.module_row_2.module_row>.builder_row_cover::before{background-image:-webkit-linear-gradient(0deg,rgba(0, 0, 0, 0.741176) 0%,rgba(20, 19, 19, 0.529412) 56%,rgb(255, 255, 255) 98%);
+background-image:-o-linear-gradient(0deg,rgba(0, 0, 0, 0.741176) 0%,rgba(20, 19, 19, 0.529412) 56%,rgb(255, 255, 255) 98%);
+background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.741176) 0%,rgba(20, 19, 19, 0.529412) 56%,rgb(255, 255, 255) 98%);
+}
+.themify_builder_67_row.module_row_2.module_row,.themify_builder_67_row.module_row_2 h1,.themify_builder_67_row.module_row_2 h2,.themify_builder_67_row.module_row_2 h3:not(.module-title),.themify_builder_67_row.module_row_2 h4,.themify_builder_67_row.module_row_2 h5,.themify_builder_67_row.module_row_2 h6{color:#ffffff; }
+.themify_builder_67_row.module_row_2 a{color:#ffffff; }
+@media screen and (max-width: 480px) {.themify_builder_67_row.module_row_2.module_row{padding-top:10%; padding-bottom:13%; }
+}
+.themify_builder .buttons-67-2-0-1.module.module-buttons{background-repeat: repeat; background-position: left top; }

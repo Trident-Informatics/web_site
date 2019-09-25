@@ -1,0 +1,21 @@
+.themify_builder_65_row.module_row_0.module_row{background-image: url("https://themify.me/demo/themes/ultra-agency/files/2016/08/ipad-605420_1920.jpg"); background-repeat: no-repeat;background-size: cover; text-align: center; padding-top:13%; padding-bottom:13%; }
+.themify_builder_65_row.module_row_0.module_row>.builder_row_cover::before{background-image:-webkit-linear-gradient(152deg,rgba(255, 239, 120, 0.773) 0%,rgba(214, 51, 255, 0.8) 100%);
+background-image:-o-linear-gradient(152deg,rgba(255, 239, 120, 0.773) 0%,rgba(214, 51, 255, 0.8) 100%);
+background-image:linear-gradient(152deg,rgba(255, 239, 120, 0.773) 0%,rgba(214, 51, 255, 0.8) 100%);
+}
+.themify_builder_65_row.module_row_0.module_row,.themify_builder_65_row.module_row_0 h1,.themify_builder_65_row.module_row_0 h2,.themify_builder_65_row.module_row_0 h3:not(.module-title),.themify_builder_65_row.module_row_0 h4,.themify_builder_65_row.module_row_0 h5,.themify_builder_65_row.module_row_0 h6{color:#ffffff; }
+@media screen and (max-width: 480px) {.themify_builder_65_row.module_row_0.module_row{padding-top:25%; }
+}
+.themify_builder_65_row.module_row_1.module_row{background-color:#56f7e4; text-align: center; padding-top:4%; padding-bottom:4%; }
+.themify_builder_65_row.module_row_1.module_row,.themify_builder_65_row.module_row_1 h1,.themify_builder_65_row.module_row_1 h2,.themify_builder_65_row.module_row_1 h3:not(.module-title),.themify_builder_65_row.module_row_1 h4,.themify_builder_65_row.module_row_1 h5,.themify_builder_65_row.module_row_1 h6{color:#000000; }
+.themify_builder_65_row.module_row_1 a{color:#000000; }
+@media screen and (max-width: 480px) {.themify_builder_65_row.module_row_1.module_row{padding-top:20%; padding-bottom:20%; }
+}
+.themify_builder_65_row.module_row_2.module_row{padding-top:4%; padding-bottom:4%; }
+@media screen and (max-width: 480px) {.themify_builder_65_row.module_row_2.module_row{padding-top:20%; padding-bottom:20%; }
+}
+.module_row_2 .module_column_0.tb_65_column.module_column{padding-right:17%; padding-left:17.5%; }
+@media screen and (max-width: 480px) {.module_row_2 .module_column_0.tb_65_column.module_column{padding-right:0px; padding-left:0px; }
+}
+.themify_builder .text-65-2-0-0.module-text{text-align: center; margin-bottom:40px; }
+.themify_builder_65_row.module_row_3.module_row{background-color:#eeeeee; }
