@@ -1,0 +1,58 @@
+.module-progressbar {
+	margin-bottom: 1.5em;
+}
+.module-progressbar .tb-progress-bar-wrap {
+	display: block;
+	padding-top: 1em;
+}
+.module-progressbar .tb-progress-bar {
+	background: #eee;
+	background: rgba(0,0,0,.1);
+	margin: 1.2em 0 3.2em;
+	text-align: left;
+	position: relative;
+	height: 3px;
+}
+.module-progressbar .tb-progress-bar .tb-progress-bar-label {
+	font-style: normal;
+	position: absolute;
+	top: -1.9em;
+	text-transform: uppercase;
+}
+.module-progressbar .tb-progress-bar .tb-progress-bar-bg {
+	height: 3px;
+	position: absolute;
+	transition: 3s;
+}
+.module-progressbar .tb-progress-tooltip {
+	position: absolute;
+	right: 0;
+	top: auto;
+	font-size: .9em;
+	bottom: .5em;
+	text-align: right;
+}
+/**
+ * AMP support: display a static percentage counter
+ */
+html[amp] .module-progressbar .tb-progress-bar .tb-progress-bar-bg:after {
+	content: attr(data-percent)"%";
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.3em;
+}
+html[amp] .module-progressbar .tb-progress-bar .tb-progress-bar-bg {
+	width: 100%;
+	position: static;
+}
+.module-progressbar.tb-font-color-solid .tb-progress-tooltip,
+.module-progressbar.tb-font-color-solid .tb-progress-bar-label{
+    background-image: none !important;
+}
+.module-progressbar.tb-font-color-gradient .tb-progress-tooltip,
+.module-progressbar.tb-font-color-gradient .tb-progress-bar-label{
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+}
