@@ -1,0 +1,1508 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Global CSS
+	1.1 Columns CSS
+2. Service CSS
+3. Image/Text Slider CSS
+4. Button CSS
+5. Member CSS
+6. Latest Posts CSS
+7. Medium Text
+8. Skills CSS
+9. Milestones CSS
+10. Image PopUp (PreetyPhoto) CSS
+11. Portfolio Page CSS
+12. Social CSS
+13. Single Portfolio
+14. Responsive CSS
+-------------------------------------------------------------------*/
+
+
+/* ===================================
+    1. Global CSS
+====================================== */
+
+
+.section-title-holder {
+    width: 270px;
+    position: relative;
+    color: #fff;
+    word-break: break-all;
+    padding-top: 50px;
+}
+
+.section-content-holder {
+    width: 690px;
+    margin-top: 50px;
+}
+
+.no-padding .section-content-holder {
+    margin-top: 0;
+    width: 810px;
+}
+
+.no-padding .section-wrapper {
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+.no-padding .section-title-holder {
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+[data-jarallax-element] {
+    z-index: 30 !important;
+}
+
+.info-text {
+    font-size: 22px;
+    line-height: 190%;
+    color: #000;
+}
+
+.info-code-title {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    line-height: 120%;
+}
+
+.info-code-content, 
+.info-code-content a {
+    color: #b3b3b3;
+    margin-bottom: 30px;
+}
+
+.tp-bullet-title {
+    display: none !important;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {    
+    transition-duration: 0s;
+}
+
+
+
+/* ===================================
+    1.1 Columns CSS
+====================================== */
+
+.one_half,  
+.one_third,  
+.two_third,  
+.three_fourth, 
+.one_fourth {
+    margin-right: 8%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.one {    
+    display: block;
+    clear: both;    
+    margin-bottom: 30px;
+}
+
+.one_half {
+    width: 46%;
+}
+
+.one_third {
+    width: 28%;
+}
+
+.two_third {
+    width: 64%;
+}
+
+.one_fourth {
+    width: 19%;
+}
+
+.three_fourth {
+    width: 73%;
+}
+
+.one_half.margin-0 {
+    width: 50%;
+}
+
+.one_third.margin-0 {
+    width: calc(100% / 3);
+}
+
+.two_third.margin-0 {
+    width: calc(100% / 3 * 2);
+}
+
+.one_fourth.margin-0 {
+    width: 25%;
+}
+
+.three_fourth.margin-0 {
+    width: 75%;
+}
+
+
+/* ===================================
+    2. Service CSS
+====================================== */
+
+.service-holder {
+    margin: 25px 0;
+}
+
+.service-holder:after {
+    content: "";
+    display: block;
+    clear: both;    
+}
+
+.service-txt h4 {
+    font-size: 46px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.service-num {
+    font-size: 264px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: -1px 0 #b3b3b3, 
+        0 1px #b3b3b3, 
+        1px 0 #b3b3b3, 
+        0 -1px #b3b3b3;
+    line-height: 100%;
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: -10px;
+	-webkit-transform: translateZ(0);
+}
+
+
+
+/* ===================================
+    3. Image/Text Slider CSS
+====================================== */
+
+.image-slider-wrapper {
+    margin-bottom: 20px;
+}
+
+.single-post-header-content .image-slider-wrapper {
+    margin-bottom: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+    height: auto !important;
+}
+
+.owl-theme .owl-dots {
+    padding-top: 25px;
+    line-height: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all .2s ease;
+    width: 17px;
+    height: 17px;
+    border-radius: 90%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    border-radius: 90%;
+    transition: all .3s ease;
+    border: 2px solid #000;
+    margin: 3px;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+    background-color: #000;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: transparent;
+}
+
+.text-slider-wrapper {
+    font-size: 24px;
+    line-height: 35px;
+    background-color: #000;
+    padding: 130px;
+}
+
+.text-slider-header-quotes {
+    margin-bottom: 60px;
+    background-image: url(../images/quotes_image.png);
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 74px;
+    background-size: 87px 74px;
+}
+
+.text-slider-wrapper .text-slide {
+    text-align: left;
+    font-size: 28px;
+    line-height: 170%;
+    overflow: hidden;
+}
+
+.text-slider-wrapper .text-slide:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-slider-wrapper .text-slide-name {
+    font-size: 18px;
+    line-height: 100%;
+    margin: 0 12px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-slider-wrapper .text-slide-position {
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 4px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.text-slider-wrapper img.text-slide-img {
+    width: 70px !important;
+    height: 70px;
+    border-radius: 90%;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.text-slide-content {
+    margin-bottom: 60px;
+}
+
+.text-slider-wrapper .owl-nav {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.text-slider-wrapper .owl-theme .owl-prev {
+    background-image: url('../images/nav_left.png') !important;
+    background-color: transparent !important;
+    font-size: 0;
+    width: 30px;
+    padding: 0;
+    height: 30px;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    transition: .3s;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+
+.text-slider-wrapper .owl-theme .owl-prev:hover {
+    opacity: 1;
+}
+
+.text-slider-wrapper .owl-theme .owl-next {
+    background-image: url('../images/nav_right.png') !important;
+    background-color: transparent !important;
+    font-size: 0;
+    width: 30px;
+    padding: 0;
+    height: 30px;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    transition: .3s;
+    opacity: 0.7;
+}
+
+.text-slider-wrapper .owl-theme .owl-next:hover {    
+    opacity: 1;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+
+/* ===================================
+    4. Button CSS
+====================================== */
+
+body a.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #47ea4e;
+    text-align: left;
+    padding: 10px 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    border: 2px solid #47ea4e;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+a.button:hover {
+    background-color: #fff;
+    color: #47ea4e;
+}
+
+a.button-dot {
+    color: #fff !important;
+    font-size: 16px;
+    position: relative;
+}
+
+a.button-dot:hover {
+    color: #fff;    
+}
+
+a.button-dot span {
+    transition: .3s;
+    display: inline-block;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+a.button-dot:hover span {
+    transform: translateX(-8px);
+}
+
+a.button-dot:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 90%;
+    top: -7px;
+    position: absolute;
+    transition: .3s;
+}
+
+a.button-dot:hover:before {
+    width: calc(100% + 30px);
+    height: 51px;
+    border-radius: 50px;
+    top: -18px;
+}
+
+
+
+/* ===================================
+    5. Member CSS
+====================================== */
+
+.member {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.member img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 700px;
+}
+
+.member-content {
+    margin-bottom: 35px;
+}
+
+.member-info {
+    width: 380px;
+    background-color: #fff;
+    padding: 65px 110px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -130px;
+    text-align: left;
+    position: relative;
+    z-index: 31;
+}
+
+.member-right .member-info {
+    margin-left: auto;
+    margin-right: -130px;
+}
+
+.member-postition {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.member-name {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 150%;
+    margin-bottom: 35px;
+    margin-top: -5px;
+}
+
+.member-social-holder {
+    background: #47ea4e;
+    padding: 25px 50px;
+    position: absolute;
+    bottom: -35px;
+    left: -45px;
+}
+
+.member-right .member-social-holder {
+    left: auto;
+    right: -45px;    
+}
+
+.member-social-holder .social a {
+    color: #fff !important;
+}
+
+
+/* ===================================
+    6. Latest Posts CSS
+====================================== */
+
+.blog-holder-scode {
+    margin-top: 0;
+    width: 1370px;
+    transform: translateX(-100px);
+}
+
+.blog-holder-scode article:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.blog-item-holder-scode {
+    margin: 30px 0;
+    width: 28%;
+    display: inline-block;
+    margin-right: 8%;
+    vertical-align: text-top;
+}
+
+.blog-item-holder-scode .excerpt {
+    margin-top: 20px;
+}
+
+.blog-item-holder-scode h4 {
+    padding: 0;
+    margin: 35px 0;
+}
+
+.blog-item-holder-scode h4 a {
+    color: #000 !important;
+    font-size: 34px;
+    line-height: 110%;
+    font-weight: 700;
+    transition: .3s;
+    letter-spacing: -1px;
+}
+
+.blog-item-holder-scode h4 a:hover {
+    opacity: 0.8;
+}
+
+.blog-item-holder-scode .post-thumbnail {
+    overflow: hidden;
+}
+
+.latest-posts-background-featured-image-holder {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: .3s;
+}
+
+.latest-posts-background-featured-image-holder:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.close-icon {
+    background-image: url(../images/close-left-arrow.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-size: 40px;
+    background-position: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: absolute;
+    left: -100px;
+    top: 195px;
+}
+
+.close-icon:hover {
+    transform: translateX(-5px);
+}
+
+
+
+/* ===================================
+    7. Medium Text
+====================================== */
+
+.medium-text {
+    color: #000;
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.title-description-up {
+    font-size: 16px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+
+
+/* ===================================
+    8. Skills CSS
+====================================== */
+
+.skills-holder {
+    position: relative;
+    margin: 40px 0;
+}
+
+.skill-holder {
+    margin-bottom: 30px;
+}
+
+.skill-holder:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.skill-percent {
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 100;
+    width: 100px;
+    display: inline-block;    
+    vertical-align: text-top;
+}
+
+.skill {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(202, 202, 202, 0.3);
+    margin-bottom: 30px;
+}
+
+.skill-text {
+    display: inline-block;
+    width: calc(100% - 145px);
+    margin-right: 0;
+    float: right;
+    vertical-align: text-top;
+}
+
+.skill-fill {
+    width: 100%;
+    height: 10px;
+    background-color: #000;
+}
+
+.skill-text span {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
+/* ===================================
+    9. Milestones CSS
+====================================== */
+
+ul.milestones-holder {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+li.milestone {
+    width: 45%;
+    display: inline-block;
+    margin: 30px 9% 30px 0;
+}
+
+li.milestone:nth-child(2n) {
+    margin-right: 0;
+}
+
+li.milestone > div {
+    display: inline-block;
+    vertical-align: text-top;    
+}
+
+li.milestone h5 {
+    color: #fff;
+    max-width: 240px;
+    padding-top: 0;
+    line-height: 115%;
+}
+
+li.milestone .milestone-info-left {
+    margin-right: 35px;
+    text-align: right;
+    width: 30%;
+}
+
+li.milestone .milestone-info-right {
+    width: 62%;
+}
+
+p.milestone-num {
+    font-size: 80px;
+    line-height: 100%;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 0;
+    color: #000000;
+    text-shadow: -1px 0 #b3b3b3, 
+        0 1px #b3b3b3, 
+        1px 0 #b3b3b3, 
+        0 -1px #b3b3b3;
+}
+
+
+/* ===================================
+    10. Image PopUp (PreetyPhoto) CSS
+====================================== */
+
+div.pp_default .pp_loaderIcon {
+    display: none !important;
+}
+
+div.pp_default a.pp_arrow_previous {
+    background-image: url(../images/nav_left.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_next {
+    background-image: url(../images/nav_right.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_previous:hover {
+    transform: translateX(-5px);
+}
+
+div.pp_default a.pp_arrow_next:hover {
+    transform: translateX(5px);
+}
+
+div.pp_default .pp_close {
+    background-image: url(../images/close.png);
+    background-size: 30px 30px;
+    margin-top: 5px;
+    text-indent: -99999999px;
+    font-size: 0;
+    line-height: 0;    
+}
+
+div.pp_default .pp_next:hover {
+    background: url(../images/nav_right.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 20px;
+}
+
+div.pp_default .pp_previous:hover {
+    background: url(../images/nav_left.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;    
+}
+
+div.pp_default .pp_nav .currentTextHolder {
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+div.pp_default .pp_description {    
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+a.video-popup-holder {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+a.video-popup-holder:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(191, 181, 174, 0.2);
+    position: absolute; 
+    left: 0;
+    top: 0;
+    transition: opacity .3s ease;
+}
+
+a.video-popup-holder .thumb {
+    width: 100%;
+}
+
+img.popup-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: calc(50% - 45px);
+    left: calc(50% - 45px);    
+    transition: opacity .2s linear;
+    width: 90px !important;
+    height: 90px !important;
+}
+
+a.video-popup-holder:hover:after {
+    opacity: 0;
+}
+
+
+
+/* ===================================
+    11. Portfolio Page CSS
+====================================== */
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.grid-sizer {
+    width: 25%;
+}
+
+.grid-item {
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid-item.p_one_fourth {
+    width: 25%;
+}
+
+.grid-item.p_one_half {
+    width: 50%;
+}
+
+.grid-item.p_three_fourth {
+    width: 75%;
+}
+
+.grid-item.p_one {
+    width: 100%;
+}
+
+.grid-item img {
+    width: 100% !important;
+    height: auto;
+    display: block;    
+}
+
+.grid-item .entry-holder {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.grid-item a.item-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.portfolio-text-holder {
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.portfolio-title {
+    font-size: 30px;
+    line-height: 170%;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #b3b3b3;
+}
+
+.portfolio-desc {
+    font-size: 14px;
+    line-height: 22px;
+    color: #b3b3b3;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.grid-item a.item-link:hover:after, 
+.grid-item a.item-link:hover .portfolio-text-holder {
+    opacity: 1;
+}
+
+.more-posts-portfolio-holder {
+    min-height: 1px;
+    margin-top: -1px;
+    margin-bottom: 50px;
+}
+
+.no-padding .more-posts-portfolio-holder {
+    margin-bottom: 0;
+}
+
+.more-posts-portfolio-holder img {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.more-posts-portfolio-holder.hide {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+}
+
+body .site-wrapper .more-posts-portfolio, 
+body .site-wrapper .no-more-posts-portfolio, 
+body .site-wrapper .more-posts-portfolio-loading {
+    color: #fff;
+    background-color: #000000;
+    padding: 25px 6px 25px 14px;
+    display: block;
+    transition: all .3s ease;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+body .site-wrapper .more-posts-portfolio {
+    cursor: pointer;   
+}
+
+.more-posts-portfolio:hover {
+    color: #47ea4e;
+}
+
+body .site-wrapper .no-more-posts-portfolio, 
+body .site-wrapper .more-posts-portfolio-loading {
+    display: none;
+    color: #fff !important;
+}
+
+.portfolio-content h1 {
+    font-size: 44px;
+    color: #000;
+    line-height: 130%;
+}
+
+.portfolio-load-content-holder {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all .5s ease;
+    width: 1170px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.portfolio-load-content-holder.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.portfolio-load-content-holder.show.viceversa {
+    opacity: 0;
+    transform: translateY(70px);
+}
+
+.section.no-padding .portfolio-content-wrapper {
+    padding: 195px 0 75px 0;
+}    
+
+.portfolio-content-wrapper {
+    display: none;
+}
+
+.portfolio-content-wrapper.show {
+    display: block;
+}
+
+#portfolio-grid {
+    transition: all .5s ease;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#portfolio-grid.hide {
+    opacity: 0;
+    transform: translateY(70px);    
+}
+
+.grid-item a.item-link.animate-plus:after, 
+.ajax-portfolio.animate-plus .portfolio-text-holder {
+    opacity: 1;
+}
+
+
+/* ===================================
+    12. Social CSS
+====================================== */
+
+.social {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+body .social a {
+    color: #000 !important;
+    transition: all .3s ease;
+}
+
+body .social a:hover {
+    opacity: 0.5;    
+}
+
+
+/* ===================================
+    12. Pricing Table
+====================================== */
+
+.pricing-table {
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+    position: relative;
+    text-align: left;
+}
+
+.pricing-wrapper {
+    padding: 0 15%;
+}
+
+.pricing-table-title {
+    color: #000;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 40px 0;
+    margin-bottom: 25px;
+}
+
+.pricing-num {
+    font-size: 200px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: -1px 0 #b3b3b3, 
+        0 1px #b3b3b3, 
+        1px 0 #b3b3b3, 
+        0 -1px #b3b3b3;
+    line-height: 100%;
+    margin-bottom: -10px;
+    position: absolute;
+    top: -50px;
+    right: -9px;
+    z-index: 1;
+}
+
+.pricing-num:before {
+    content: "";
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.pricing-table-price {
+    font-size: 100px;
+    line-height: 120%;
+    color: #47ea4e;
+    font-weight: 700;
+}
+
+.pricing-table-desc {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.pricing-table ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.pricing-table ul li {
+    padding: 10px 0;
+    color: #000;
+}
+
+.pricing-list span.fa {
+    color: #47ea4e;
+    margin-right: 25px;
+}
+
+.pricing-list.included-no, 
+.pricing-list.included-no span.fa {
+    color: gray;
+}
+
+.pricing-list.included-no span.fa:before {
+    content: "\f00d";
+} 
+
+.pricing-table-content-holder {
+    margin-bottom: 40px;
+}
+
+.pricing-button {
+    text-align: center;
+}
+
+
+
+/* ===================================
+    13. Single Portfolio
+====================================== */
+
+
+.portfolio-item-wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ===================================
+    14. Responsive CSS
+====================================== */
+
+@media screen and (max-width: 1366px) { 
+
+    .blog-holder-scode {
+        width: 100%;
+        transform: none;    
+    }
+
+    .blog-item-holder-scode {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .blog-item-holder-scode h4 a {
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (max-width: 1270px)
+{
+    .member-info {    
+        padding: 65px 80px;    
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .one_half,  
+    .one_third,  
+    .two_third,  
+    .one_fourth,
+    .three_fourth {
+        margin-right: 6%;   
+    }
+
+    .one_half {
+        width: 47%;
+    }
+
+    .one_third {
+        width: calc(88% / 3);
+    }
+
+    .two_third {
+        width: calc(194% / 3);
+    }
+
+    .one_fourth {
+        width: calc(82% / 4);
+    }
+
+    .three_fourth {
+        width: calc(318% / 4);
+    }
+
+    .section-title-holder {
+        float: none !important;
+        display: block;
+        position: relative !important;
+        width: auto !important;
+        top: 0 !important;
+        padding-top: 0;
+    }
+
+    .section-title-holder .entry-title br {
+        display: none;
+    }
+
+    .section h2.entry-title {
+        margin-bottom: 0 !important;        
+    }        
+
+    .sticky-spacer {
+        height: auto !important;
+        width: auto !important;
+        position: relative !important;
+    }    
+
+    .section-content-holder {   
+        width: 100%;
+        margin-top: 75px;        
+    }        
+
+    .pricing-wrapper {
+        padding: 0 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 1020px) {        
+
+    .one_half, 
+    .one_third, 
+    .one_fourth, 
+    .two_third, 
+    .three_fourth {
+        width: 100% !important;
+        float: none;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center;
+    }
+
+    .margin-0 img {
+        width: 100% !important;
+    }
+
+    .grid-item, 
+    .grid-sizer {
+        width: 100% !important;
+    } 
+
+    .button-holder {
+        text-align: center !important;
+    }
+
+    .service-holder {
+        text-align: center;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    [data-jarallax-element] {
+        transform: none !important;
+    }
+
+    .no-page-title .section-wrapper {
+        padding: 65px 0 35px 0;
+    }
+
+    .text-slider-wrapper {
+        padding: 10%;
+    }
+
+    .blog-item-holder-scode {
+        display: block;  
+        text-align: center; 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto !important;
+        max-width: 400px;         
+    }
+
+    .medium-text {
+        font-size: 40px;
+        line-height: 105%;
+        padding-top: 10px;
+    }
+
+    .portfolio-load-content-holder {
+        max-width: 90%;
+    }
+
+    .close-icon {
+        top: 120px;
+        right: -10px;
+        left: auto;
+    }
+
+    .pricing-table {
+        margin-bottom: 100px;
+    }
+
+    .member {
+        margin: 35px auto;
+        max-width: 80%;
+    }
+
+    .member img {
+        display: block;
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .member-info {
+        display: block;
+        margin: 0 auto !important;
+        width: 80%;
+        padding: 10%;
+    }
+
+    .member-social-holder {
+        right: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .skill-percent {
+        display: block;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .skill-text {
+        display: block;
+        width: 100%;
+    }
+
+    .skill-text span {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    li.milestone {
+        width: 100%;
+        margin-bottom: 60px;
+        display: block;
+        max-width: 350px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }  
+
+    li.milestone:last-child {
+        margin-bottom: 0;
+    }
+
+    li.milestone > div {
+        width: 100% !important;
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+
+    p.milestone-num {
+        font-size: 65px;
+    }
+
+    li.milestone h5 {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .portfolio-item-wrapper {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {     
+
+    .blog-item-holder-scode .post-thumbnail {
+        margin-top: 70px;
+    }
+
+    .blog-holder-scode > article:first-of-type .post-thumbnail {
+        margin-top: 0;   
+    }
+
+    .latest-posts-background-featured-image-holder {
+        height: 300px;
+    }
+
+    .member {
+        max-width: 100%;
+    }
+
+    .member-name {
+        font-size: 35px;
+    }
+
+    .member-content {
+        font-size: 16px;
+        line-height: 170%;
+        margin-bottom: 50px;
+    }
+
+    .member-postition {
+        font-size: 13px;
+    }   
+    
+    .text-slider-wrapper {
+        width: 80%;
+    }
+
+    .text-slider-wrapper .text-slide {
+        font-size: 20px;
+    }
+
+    .text-slider-wrapper img.text-slide-img {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .text-slider-wrapper .text-slide-name {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .text-slider-wrapper .text-slide-position {
+        display: block;
+        font-size: 14px;
+        line-height: 125%;
+    }
+
+}

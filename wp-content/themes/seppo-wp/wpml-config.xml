@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>		
+		<key name="theme_mods_seppo-wp">
+			<key name="cocobasic_footer_mail"/>			
+			<key name="cocobasic_footer_social_content"/>			
+			<key name="cocobasic_footer_copyright_content"/>			
+		</key>
+	</admin-texts>
+</wpml-config>
